@@ -6,7 +6,7 @@
 
 ## Instructions
 
-Let's take the code from our previous lab and change the parameter names. Change `$scope` and `$timeout` to random words of your choosing.
+Let's take the code from this repo and change the parameter names. Change `$scope` and `$timeout` to random words of your choosing.
 
 Refresh the page - you'll notice we get a load of errors. Not good!!
 
