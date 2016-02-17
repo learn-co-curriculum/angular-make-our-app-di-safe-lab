@@ -1,3 +1,6 @@
+// The annotate function below takes in a function, converts it into a string, parses out the argument names and adds them to an array.
+// This is very similiar to how Angular does dependency injection by argument name: cheeckout this blog post for more information! https://toddmotto.com/angular-js-dependency-injection-annotation-process/
+
 var FN_ARGS = /^function\s*[^\(]*\(\s*([^\)]*)\)/m;
 var FN_ARG_SPLIT = /,/;
 var FN_ARG = /^\s*(_?)(\S+?)\1\s*$/;
